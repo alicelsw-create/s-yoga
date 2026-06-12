@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nyhetsbrev | Lumina Yoga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Lumina Yoga</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="produkt-1.html">Yogakort</a></li>
+                <li><a href="produkt-2.html">Retreats</a></li>
+                <li><a href="nyhetsbrev.html" class="active">Nyhetsbrev</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <div class="newsletter-layout">
+            <h1>Prenumerera på vårt nyhetsbrev</h1>
+            <p class="intro-text">Få tips för din hemmapraktik, unika erbjudanden och förtur till våra populära workshops direkt i din inkorg en gång i månaden.</p>
+            
+            <img src="https://images.unsplash.com/photo-1510894347580-fc4d539f4d48?auto=format&fit=crop&w=800&q=80" alt="Skriva i anteckningsblock" class="newsletter-image">
+
+            <section class="form-section standard-width">
+                <div class="bonus-box">
+                    <strong>🎁 Just nu:</strong> Få vår PDF-guide "5 positioner mot stress" direkt vid registrering!
+                </div>
+
+                <form action="thank-you.html" method="GET" class="lead-form" data-form-name="nyhetsbrev_sign_up">
+                    <div class="form-group">
+                        <label for="email">E-postadress *</label>
+                        <input type="email" id="email" name="email" placeholder="skriv.din@epost.se" required>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <label for="consent">Jag godkänner att Lumina Yoga skickar marknadsföring och sparar mina uppgifter enligt GDPR.</label>
+                    </div>
+                    <button type="submit" class="cta-button submit-btn">Ja, ge mig guiden & nyhetsbrevet!</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lumina Yoga. Kursbygge för Analys och effektmätning.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

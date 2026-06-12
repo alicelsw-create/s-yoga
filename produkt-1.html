@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yogakort & Medlemskap | Lumina Yoga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Lumina Yoga</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="produkt-1.html" class="active">Yogakort</a></li>
+                <li><a href="produkt-2.html">Retreats</a></li>
+                <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <h1>Våra Yogakort & Medlemskap</h1>
+        <p class="intro-text">Välj det kort som passar din livsstil bäst. Inget bindningstid, ren rörelseglädje.</p>
+
+        <div class="product-showcase">
+            <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?auto=format&fit=crop&w=1200&q=80" alt="Yogakort klass" class="featured-image">
+            
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Månadskort</h3>
+                    <p class="price">790 kr / mån</p>
+                    <p>Fri tillgång till alla öppna klasser.</p>
+                </div>
+                <div class="price-card highlighted">
+                    <h3>Klippkort 10 ggr</h3>
+                    <p class="price">1 650 kr</p>
+                    <p>Giltigt i 6 månader på valfria klasser.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulär för intresseanmälan / Köp (Perfekt för HubSpot/GA4 spårning) -->
+        <section class="form-section">
+            <h2>Boka eller köp ditt yogakort</h2>
+            <p>Fyll i formuläret nedan för att beställa ditt kort. Vi skickar instruktioner för betalning och app-inloggning.</p>
+            
+            <form action="thank-you.html" method="GET" class="lead-form" data-form-name="yogakort_bestallning">
+                <div class="form-group">
+                    <label for="card-type">Välj kort *</label>
+                    <select id="card-type" name="card_type" required>
+                        <option value="manadskort">Månadskort - 790 kr</option>
+                        <option value="klippkort">Klippkort 10 ggr - 1 650 kr</option>
+                        <option value="prova-pa">Prova-på vecka - 250 kr</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="name">Namn *</label>
+                    <input type="text" id="name" name="firstname" placeholder="Ditt för- och efternamn" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-postadress *</label>
+                    <input type="email" id="email" name="email" placeholder="namn@foretag.se" required>
+                </div>
+                <button type="submit" class="cta-button submit-btn">Slutför beställning</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lumina Yoga. Kursbygge för Analys och effektmätning.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

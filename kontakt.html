@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakta oss | Lumina Yoga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Lumina Yoga</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="produkt-1.html">Yogakort</a></li>
+                <li><a href="produkt-2.html">Retreats</a></li>
+                <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                <li><a href="kontakt.html" class="active">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <h1>Kontakta oss</h1>
+        <p class="intro-text">Har du frågor om våra klasser, medlemskap eller vill du boka ett privat företagsevent? Hör av dig!</p>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h3>Lumina Yoga Studio</h3>
+                <p>📍 Yogagatan 12, 111 22 Stockholm</p>
+                <p>📧 info@luminayoga_testkurs.se</p>
+                <p>📞 08-123 45 67</p>
+                <br>
+                <h3>Hitta hit</h3>
+                <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=600&q=80" alt="Yogastudio reception" class="side-image">
+            </div>
+
+            <section class="form-section">
+                <h2>Skicka ett meddelande</h2>
+                <form action="thank-you.html" method="GET" class="lead-form" data-form-name="allman_kontakt">
+                    <div class="form-group">
+                        <label for="name">Namn *</label>
+                        <input type="text" id="name" name="firstname" placeholder="Ditt namn" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-postadress *</label>
+                        <input type="email" id="email" name="email" placeholder="din@epost.se" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Meddelande *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Vad kan vi hjälpa dig med?" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button submit-btn">Skicka meddelande</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lumina Yoga. Kursbygge för Analys och effektmätning.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

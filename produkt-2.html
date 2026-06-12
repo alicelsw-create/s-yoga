@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exklusiva Yogaretreats | Lumina Yoga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Lumina Yoga</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="produkt-1.html">Yogakort</a></li>
+                <li><a href="produkt-2.html" class="active">Retreats</a></li>
+                <li><a href="nyhetsbrev.html">Nyhetsbrev</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <h1>Yogaretreats & Fördjupning</h1>
+        <p class="intro-text">Res bort från vardagens brus. Följ med oss på en helg fylld av yoga, meditation, vegetarisk mat och total återhämtning.</p>
+
+        <div class="product-showcase">
+            <img src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?auto=format&fit=crop&w=1200&q=80" alt="Yoga i naturen" class="featured-image">
+            
+            <div class="retreat-details">
+                <h3>Kommande: Höstglow Retreat 2026</h3>
+                <p><strong>Var:</strong> Skärgårdens Spa & Hotell</p>
+                <p><strong>När:</strong> 9-11 Oktober 2026</p>
+                <p><strong>Vad ingår:</strong> Boende i enkel-/dubbelrum, alla måltider, 6 yogaklasser samt tillgång till spa.</p>
+            </div>
+        </div>
+
+        <section class="form-section">
+            <h2>Anmäl intresse för nästa Retreat</h2>
+            <p>Platserna är begränsade. Säkra din plats eller få information först av alla när bokningen öppnar officiellt.</p>
+            
+            <form action="thank-you.html" method="GET" class="lead-form" data-form-name="retreat_intresse">
+                <div class="form-group">
+                    <label for="name">Namn *</label>
+                    <input type="text" id="name" name="firstname" placeholder="Ditt namn" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-postadress *</label>
+                    <input type="email" id="email" name="email" placeholder="din.email@adress.se" required>
+                </div>
+                <div class="form-group">
+                    <label for="diet">Kostval / Allergier</label>
+                    <input type="text" id="diet" name="diet" placeholder="t.ex. Veganskt, Glutenfritt">
+                </div>
+                <button type="submit" class="cta-button submit-btn">Skicka intresseanmälan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Lumina Yoga. Kursbygge för Analys och effektmätning.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
